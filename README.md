@@ -9,11 +9,16 @@ US Census Report, Social Security Administration
 
 ## Data Cleaning and Merging
 I worked with 4 different dataframes with more than 30,000 rows
-Issues:
+
+Issues I had to deal with:
+
 -Duplication
+
 -Small number of people in a zip code
+
 -Null/Wrong values
-My final inal Data frame was a combination of 4 tables and had 11,260 rows and  12 columns. 
+
+My final data frame was a combination of 4 tables and had 11,260 rows and  12 columns. 
 I chose the number 49,000$ in order to get a relatively balanced numbers in the target value.
 #### Values Count: Over - 47% , Under - 53%
 
