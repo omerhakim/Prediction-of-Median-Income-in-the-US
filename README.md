@@ -32,7 +32,7 @@ It is complicated to predict Income based on Social Security payments and Geogra
 The model with the best result was the XGBoost model with 0.73 Accuracy
 
 
-'''
+```
 print('Improved Random Forest')
 print('-------------------')
 forest = RandomForestClassifier(bootstrap= True, max_depth= 100, max_features= 3, min_samples_leaf=3, min_samples_split= 12, n_estimators= 1000,n_jobs=-1)
@@ -51,6 +51,6 @@ print ('True Positives:', TP)
 print ('True Negatives:', TN)
 print ('False Positives:', FP)
 print ('False Negatives:', FN)
-'''
+```
 
 ![read1](https://github.com/omerhakim/mod_3_project/blob/master/images/read1.png)
