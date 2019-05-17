@@ -30,7 +30,7 @@ Next Steps:
 
 The model with the best result after Hyperparameter Tuning was the XGBoost Classifier model with 0.73 Accuracy
 
-![boost](https://github.com/omerhakim/mod_3_project/issues/1#issue-445564120)
+![boost](https://github.com/omerhakim/mod_3_project/blob/master/images/Screen%20Shot%202019-05-17%20at%202.21.40%20PM.png)
 
 
 
@@ -41,7 +41,7 @@ It is complicated to predict Income based on Social Security payments and Geogra
 - High percentage of retired workers is sometime a sign for higher median income (probably because people move to specific areas after retirement)
 -Number of people with disabilities has some influence to predict an areas with lower incomes.
 
-The model with the best result was the XGBoost model with 0.73 Accuracy
+
 
 
 
