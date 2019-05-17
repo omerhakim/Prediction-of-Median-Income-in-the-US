@@ -35,11 +35,10 @@ My Next Steps Were:
 
 ## Model Comparsion before and after Hyperparameter Tuning
 
-I tries 5 different models: Logistic Regression, XGBoost
 
 ![read1](https://github.com/omerhakim/mod_3_project/blob/master/images/read1.png)
 
-The model with the best result after Hyperparameter Tuning was the XGBoost Classifier model with 0.73 Accuracy
+The model with the best result after Hyperparameter Tuning was the *XGBoost Classifier with 0.73 Accuracy*
 
 ![boost](https://github.com/omerhakim/mod_3_project/blob/master/images/Screen%20Shot%202019-05-17%20at%202.21.40%20PM.png)
 
