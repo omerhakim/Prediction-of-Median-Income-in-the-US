@@ -53,4 +53,4 @@ print ('False Positives:', FP)
 print ('False Negatives:', FN)
 ,,,
 
-![Screenshot]/https://github.com/omerhakim/mod_3_project/blob/master/images/read1.png
+![Screenshot] (https://github.com/omerhakim/mod_3_project/blob/master/images/read1.png)
