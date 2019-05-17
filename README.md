@@ -1,5 +1,5 @@
 
-# Predicting if the Median Household of a Zip Code in United States is Above/Under 49,000$
+# Predicting if the Median Household of a Zip Code in the United States is Above/Under 49,000$
 
 ## Background
 The goal of the model is trying to predict Median income per household (over/under $49,000) in US zip codes based on geographical data and social security payments 
