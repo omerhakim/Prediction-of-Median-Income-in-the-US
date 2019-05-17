@@ -15,7 +15,7 @@ Issues:
 -Null/Wrong values
 My final inal Data frame was a combination of 4 tables and had 11,260 rows and  12 columns. 
 I chose the number 49,000$ in order to get a relatively balanced numbers in the target value.
-### Values Count: Over - 47% , Under - 53%
+#### Values Count: Over - 47% , Under - 53%
 
 ## Features Engineering and Selection
 After creating dummy variables and dropping columns with multicollinearity, data frame had 68 columns. Accuracy Score for this data frame was : 0.547
