@@ -25,12 +25,18 @@ I chose the number 49,000$ in order to get a relatively balanced numbers in the 
 ## Features Engineering and Selection
 After creating dummy variables and dropping columns with multicollinearity, data frame had 68 columns. Accuracy Score for this data frame was : 0.547
 
-Next Steps:
+My Next Steps Were:
+
 -Creating Polynomials and Interactions (Total number of Columns: 2415)
+
 -Scaling the Data with Sklearn StandardScaler
+
 -Selection of best 50 features out of the 2415, using Sklearn SelectKBest (F regression).
 
 ## Model Comparsion before and after Hyperparameter Tuning
+
+I tries 5 different models: Logistic Regression, XGBoost
+
 ![read1](https://github.com/omerhakim/mod_3_project/blob/master/images/read1.png)
 
 The model with the best result after Hyperparameter Tuning was the XGBoost Classifier model with 0.73 Accuracy
