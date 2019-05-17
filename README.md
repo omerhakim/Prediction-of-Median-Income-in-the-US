@@ -53,9 +53,9 @@ Some general first impressions:
 
 -Some combinations of size of population and isolated places has an influence of low income Prediction.
 
-- High percentage of retired workers is sometime a sign for higher median income (probably because people move to specific areas after retirement)
+-High percentage of retired workers is sometime a sign for higher median income (probably because people move to specific areas after retirement)
 
--Number of people with disabilities has some influence to predict an areas with lower incomes.
+-The number of people with disabilities has some influence to predict an areas with lower incomes.
 
 
 
