@@ -30,7 +30,7 @@ Next Steps:
 
 The model with the best result after Hyperparameter Tuning was the XGBoost Classifier model with 0.73 Accuracy
 
-
+![boost](https://github.com/omerhakim/mod_3_project/issues/1)
 
 
 
