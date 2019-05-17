@@ -45,10 +45,16 @@ The model with the best result after Hyperparameter Tuning was the *XGBoost Clas
 
 
 ## Conclusions
-It is complicated to predict Income based on Social Security payments and Geography in a zip code. Some general first impressions:
+It is complicated to predict Income based on Social Security payments and Geography in a zip code.
+
+Some general first impressions:
+
 -The State where the zip code is located has big influence in the rich and poor areas (Connecticut and Puerto rico for example). 
+
 -Some combinations of size of population and isolated places has an influence of low income Prediction.
+
 - High percentage of retired workers is sometime a sign for higher median income (probably because people move to specific areas after retirement)
+
 -Number of people with disabilities has some influence to predict an areas with lower incomes.
 
 
