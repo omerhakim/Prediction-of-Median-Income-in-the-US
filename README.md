@@ -47,7 +47,7 @@ My Next Steps Were:
 
 ## Model Comparsion before and after Hyperparameter Tuning
 
-![comp](./images/image1.png style = max width = 70%)
+<img src = "./images/image1.png"  width = 500  height = 500>
 A
 ![read1](https://github.com/omerhakim/mod_3_project/blob/master/images/read1.png)
 
