@@ -42,12 +42,12 @@ My Next Steps Were:
 
 -Selection of best 50 features out of the 2415, using Sklearn SelectKBest (F regression).
 
-<img src = "./images/image2.png">
+<img src = "./images/image2.png" style = max width = 60%>
 
 
 ## Model Comparsion before and after Hyperparameter Tuning
 
-<img src = "./images/image1.png"  width = 500  height = 500>
+<img src = "./images/image1.png"  width = 450  height = 220>
 A
 
 <img src = "./images/read1.png">
