@@ -1,11 +1,18 @@
 
 # Predicting if the Median Household of a Zip Code in the United States is Above/Under 49,000$
 
-## Background
-The goal of the model is trying to predict Median income per household (over/under $49,000) in US zip codes based on geographical data and social security payments 
+## Goal
+The goal of this project is creating a model which predict Median income per household (over/under $49,000) in US zip codes based on geography and social security payments.
+
+As part of the process of building the model I conducted exploratory data analysis and produced visualizations using matplotlib and seaborn.
+In order to choose the best model i used Gridsearch and hyperparameter tuning. Based on the results, I decided to utilize XGBoost classifier for the final model.
 
 Sources of Data:
 US Census Report, Social Security Administration
+
+
+
+
 
 ## Data Cleaning and Merging
 I worked with 4 different dataframes with more than 30,000 rows
