@@ -29,6 +29,8 @@ I chose the number 49,000$  as my target over/under income, in order to get a re
 
 #### Values Count related to $49,000: Over - 47% , Under - 53%
 
+![dist](./images/read3.png)
+
 ## Features Engineering and Selection
 After creating dummy variables and dropping columns with multicollinearity, the data frame had 68 columns. Accuracy Score for this data frame was : 0.547
 
@@ -39,6 +41,9 @@ My Next Steps Were:
 -Scaling the Data with Sklearn StandardScaler
 
 -Selection of best 50 features out of the 2415, using Sklearn SelectKBest (F regression).
+
+![tuning](./images/image2.png)
+
 
 ## Model Comparsion before and after Hyperparameter Tuning
 
@@ -63,6 +68,8 @@ Some general first impressions:
 -High percentage of retired workers is sometime a sign for higher median income (probably because people move to specific areas after retirement).
 
 -The number of people with disabilities has some influence to predict an areas with lower incomes.
+
+![dist](./images/read2.png)
 
 
 
