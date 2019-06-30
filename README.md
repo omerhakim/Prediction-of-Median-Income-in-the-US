@@ -26,8 +26,9 @@ Issues I had to deal with:
 -Null/Wrong values
 
 My final data frame was a combination of 4 tables and had 11,260 rows and  12 columns. 
-I chose the number 49,000$ in order to get a relatively balanced numbers in the target value.
-#### Values Count: Over - 47% , Under - 53%
+I chose the number 49,000$  as my target over/under income, in order to get a relatively balanced numbers in the target value.
+
+#### Values Count related to $49,000: Over - 47% , Under - 53%
 
 ## Features Engineering and Selection
 After creating dummy variables and dropping columns with multicollinearity, data frame had 68 columns. Accuracy Score for this data frame was : 0.547
