@@ -54,7 +54,7 @@ Following is the hyper-parameter tuning to the XGBoost classifier:
 ## Model Comparsion before and after Hyperparameter Tuning
 
 <img src = "./images/image1.png"  width = 450  height = 220>
-<img src = "./images/read1.png">
+<img src = "./images/read1.png" style = max width = 75%>
 
 The model with the best result after Hyperparameter Tuning was the *XGBoost Classifier with 0.73 Accuracy*
 
