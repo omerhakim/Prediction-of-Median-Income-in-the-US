@@ -44,6 +44,10 @@ My Next Steps Were:
 -Selection of best 50 features out of the 2415, using Sklearn SelectKBest (F regression).
 
 
+
+
+Following is the hyper-parameter tuning to the XGBoost classifier:
+
 <img src = "./images/image2.png" style = max width = 60%>
 
 
