@@ -47,12 +47,12 @@ My Next Steps Were:
 
 ## Model Comparsion before and after Hyperparameter Tuning
 
-![table](./images/image1.png)
+![table](./images/image1.png height = 500, width = 500)
 ![read1](https://github.com/omerhakim/mod_3_project/blob/master/images/read1.png)
 
 The model with the best result after Hyperparameter Tuning was the *XGBoost Classifier with 0.73 Accuracy*
 
-![boost](./images/read4.png)
+![boost](./images/read4.png height = 500, width = 500)
 
 
 
