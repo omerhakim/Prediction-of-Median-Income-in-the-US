@@ -4,7 +4,7 @@
 The goal of this project is creating a model which predict Median income per household (over/under $49,000) in US zip codes based on geography and social security payments.
 
 As part of the process of building the model I conducted exploratory data analysis and produced visualizations using matplotlib and seaborn.
-In order to choose the best model Gridsearch and hyperparameter tuning were used. Based on the results, I decided to utilize XGBoost classifier for the final model.
+In order to choose the best model, Gridsearch and hyperparameter tuning were used for five classifiers: XGBoost, Random Forest, KNN, Logistic Regression and Decision Tree . Based on comparisons of accuracy scores, I decided to utilize XGBoost classifier for the final model.
 
 Sources of Data:
 US Census Report, Social Security Administration
@@ -14,7 +14,7 @@ US Census Report, Social Security Administration
 
 
 ## Data Cleaning and Merging
-I worked with 4 different dataframes with more than 30,000 rows
+I worked with four different dataframes with more than 30,000 rows.
 
 Issues I had to deal with:
 
@@ -24,12 +24,12 @@ Issues I had to deal with:
 
 -Null/Wrong values
 
-My final data frame was a combination of 4 tables and had 11,260 rows and  12 columns. 
+My final data frame before featur ingeineering was a concatination of 4 tables and had 11,260 rows and  12 columns. 
 I chose the number 49,000$  as my target over/under income, in order to get a relatively balanced numbers in the target value.
 
 #### Values Count related to $49,000: Over - 47% , Under - 53%
 
-Example from my EDA - Household median and mean income per zip code has relatively normal distribution
+One xample from my EDA - Household median and mean income per zip code has relatively normal distribution:
 ![dist](./images/read3.png)
 
 ## Features Engineering and Selection
