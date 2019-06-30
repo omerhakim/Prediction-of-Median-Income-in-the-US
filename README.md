@@ -1,11 +1,10 @@
 
 # Predicting if the Median Household of a Zip Code in the United States is Above/Under 49,000$
 
-## Goal
 The goal of this project is creating a model which predict Median income per household (over/under $49,000) in US zip codes based on geography and social security payments.
 
 As part of the process of building the model I conducted exploratory data analysis and produced visualizations using matplotlib and seaborn.
-In order to choose the best model i used Gridsearch and hyperparameter tuning. Based on the results, I decided to utilize XGBoost classifier for the final model.
+In order to choose the best model Gridsearch and hyperparameter tuning were used. Based on the results, I decided to utilize XGBoost classifier for the final model.
 
 Sources of Data:
 US Census Report, Social Security Administration
@@ -31,7 +30,7 @@ I chose the number 49,000$  as my target over/under income, in order to get a re
 #### Values Count related to $49,000: Over - 47% , Under - 53%
 
 ## Features Engineering and Selection
-After creating dummy variables and dropping columns with multicollinearity, data frame had 68 columns. Accuracy Score for this data frame was : 0.547
+After creating dummy variables and dropping columns with multicollinearity, the data frame had 68 columns. Accuracy Score for this data frame was : 0.547
 
 My Next Steps Were:
 
@@ -57,11 +56,11 @@ It is complicated to predict Income based on Social Security payments and Geogra
 
 Some general first impressions:
 
--The State where the zip code is located has big influence in the rich and poor areas (Connecticut and Puerto rico for example). 
+-The State where the zip code is located has big influence in the significantly rich and poor areas (Connecticut and Puerto rico for example). 
 
--Some combinations of size of population and isolated places has an influence of low income Prediction.
+-Some combinations of size of population and isolated places has an influence for low income Prediction.
 
--High percentage of retired workers is sometime a sign for higher median income (probably because people move to specific areas after retirement)
+-High percentage of retired workers is sometime a sign for higher median income (probably because people move to specific areas after retirement).
 
 -The number of people with disabilities has some influence to predict an areas with lower incomes.
 
