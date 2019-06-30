@@ -47,7 +47,8 @@ My Next Steps Were:
 
 ## Model Comparsion before and after Hyperparameter Tuning
 
-![table](./images/image1.png height = 500, width = 500)
+![comp](./images/image1.png style = max width = 70%)
+A
 ![read1](https://github.com/omerhakim/mod_3_project/blob/master/images/read1.png)
 
 The model with the best result after Hyperparameter Tuning was the *XGBoost Classifier with 0.73 Accuracy*
@@ -69,7 +70,7 @@ Some general first impressions:
 
 -The number of people with disabilities has some influence to predict an areas with lower incomes.
 
-![dist](./images/read2.png)
+![dist1](./images/read2.png)
 
 
 
