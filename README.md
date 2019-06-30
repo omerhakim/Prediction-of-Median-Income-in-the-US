@@ -54,7 +54,7 @@ A
 
 The model with the best result after Hyperparameter Tuning was the *XGBoost Classifier with 0.73 Accuracy*
 
-<img src = "./images/read4.png" style = max width = 60%>
+<img src = "./images/read4.png" style = max width = 70%>
 
 
 
