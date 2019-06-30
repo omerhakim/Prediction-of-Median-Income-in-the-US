@@ -42,18 +42,19 @@ My Next Steps Were:
 
 -Selection of best 50 features out of the 2415, using Sklearn SelectKBest (F regression).
 
-![tuning](./images/image2.png)
+<img src = "./images/image2.png">
 
 
 ## Model Comparsion before and after Hyperparameter Tuning
 
 <img src = "./images/image1.png"  width = 500  height = 500>
 A
-![read1](https://github.com/omerhakim/mod_3_project/blob/master/images/read1.png)
+
+<img src = "./images/read1.png">
 
 The model with the best result after Hyperparameter Tuning was the *XGBoost Classifier with 0.73 Accuracy*
 
-![boost](./images/read4.png height = 500, width = 500)
+<img src = "./images/read4.png">
 
 
 
@@ -70,7 +71,8 @@ Some general first impressions:
 
 -The number of people with disabilities has some influence to predict an areas with lower incomes.
 
-![dist1](./images/read2.png)
+
+<img src = "./images/read2.png">
 
 
 
