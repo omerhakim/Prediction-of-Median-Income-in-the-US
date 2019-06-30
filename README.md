@@ -54,8 +54,6 @@ Following is the hyper-parameter tuning to the XGBoost classifier:
 ## Model Comparsion before and after Hyperparameter Tuning
 
 <img src = "./images/image1.png"  width = 450  height = 220>
-A
-
 <img src = "./images/read1.png">
 
 The model with the best result after Hyperparameter Tuning was the *XGBoost Classifier with 0.73 Accuracy*
@@ -78,6 +76,7 @@ Some general first impressions:
 -The number of people with disabilities has some influence to predict an areas with lower incomes.
 
 Example of features importance:
+
 <img src = "./images/read2.png">
 
 
