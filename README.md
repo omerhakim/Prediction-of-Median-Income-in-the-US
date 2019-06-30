@@ -29,6 +29,7 @@ I chose the number 49,000$  as my target over/under income, in order to get a re
 
 #### Values Count related to $49,000: Over - 47% , Under - 53%
 
+Example from my EDA - Household median and mean income per zip code has relatively normal distribution
 ![dist](./images/read3.png)
 
 ## Features Engineering and Selection
@@ -42,7 +43,7 @@ My Next Steps Were:
 
 -Selection of best 50 features out of the 2415, using Sklearn SelectKBest (F regression).
 
-Example from my EDA - Household median and mean income per zip code has relatively normal distribution
+
 <img src = "./images/image2.png" style = max width = 60%>
 
 
