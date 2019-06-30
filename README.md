@@ -4,7 +4,7 @@
 The goal of this project is creating a model which predict Median income per household (over/under $49,000) in US zip codes based on geography and social security payments.
 
 As part of the process of building the model I conducted exploratory data analysis and produced visualizations using matplotlib and seaborn.
-In order to choose the best model, Gridsearch and hyperparameter tuning were used for five classifiers: XGBoost, Random Forest, KNN, Logistic Regression and Decision Tree . Based on comparisons of accuracy scores, I decided to utilize XGBoost classifier for the final model.
+In order to choose the best model, Gridsearch and hyperparameter tuning were used for five classifiers: XGBoost, Random Forest, KNN, Logistic Regression and Decision Tree . Based on comparisons of the accuracy score,  XGBoost classifier was chosen for the final model.
 
 Sources of Data:
 US Census Report, Social Security Administration
@@ -24,7 +24,7 @@ Issues I had to deal with:
 
 -Null/Wrong values
 
-My final data frame before featur ingeineering was a concatination of 4 tables and had 11,260 rows and  12 columns. 
+My final data frame before features ingeineering was a concatination of 4 tables and had 11,260 rows and 12 columns. 
 I chose the number 49,000$  as my target over/under income, in order to get a relatively balanced numbers in the target value.
 
 #### Values Count related to $49,000: Over - 47% , Under - 53%
@@ -46,7 +46,7 @@ My Next Steps Were:
 
 
 
-Following is the hyper-parameter tuning to the XGBoost classifier:
+Following is en axample of the hyper-parameter tunning for the XGBoost classifier:
 
 <img src = "./images/image2.png" style = max width = 60%>
 
