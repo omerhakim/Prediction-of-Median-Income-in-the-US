@@ -77,7 +77,7 @@ Some general first impressions:
 
 -The number of people with disabilities has some influence to predict an areas with lower incomes.
 
-
+Example of features importance:
 <img src = "./images/read2.png">
 
 
