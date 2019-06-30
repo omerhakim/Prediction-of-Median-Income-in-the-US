@@ -24,7 +24,7 @@ Issues I had to deal with:
 
 -Null/Wrong values
 
-My final data frame before features ingeineering was a concatination of 4 tables and had 11,260 rows and 12 columns. 
+My final data frame before feature ingeineering was a concatination of 4 tables and had 11,260 rows and 12 columns. 
 I chose the number 49,000$  as my target over/under income, in order to get a relatively balanced numbers in the target value.
 
 #### Values Count related to $49,000: Over - 47% , Under - 53%
@@ -56,28 +56,29 @@ Following is en axample of the hyper-parameter tunning for the XGBoost classifie
 <img src = "./images/image1.png"  width = 450  height = 220>
 <img src = "./images/read1.png" style = max width = 70%>
 
-The model with the best result after Hyperparameter Tuning was the *XGBoost Classifier with 0.73 Accuracy*
+The model with the best result after Hyperparameter Tuning  used the *XGBoost Classifier* and reached 0.733 Accuracy
 
 <img src = "./images/read4.png" style = max width = 70%>
 
 
 
 ## Conclusions
-It is complicated to predict Income based on Social Security payments and Geography in a zip code.
 
-Some general first impressions:
-
--The State where the zip code is located has big influence in the significantly rich and poor areas (Connecticut and Puerto rico for example). 
-
--Some combinations of size of population and isolated places has an influence for low income Prediction.
-
--High percentage of retired workers is sometime a sign for higher median income (probably because people move to specific areas after retirement).
-
--The number of people with disabilities has some influence to predict an areas with lower incomes.
-
-Example of features importance:
+This is one example of feature importance ( ):
 
 <img src = "./images/read2.png">
+
+It is chalenging and not very accurate to predict Income based only on Social Security payments and Geography in a zip code. Nevertheless, some general first impressions can be concluded:
+
+-The State where the zip code is located has big influence, especially when dealing with ealthy or poor states (Connecticut and Puerto rico for example). 
+
+-Some combinations of size of population and isolated places has an influence toward low income Prediction.
+
+-High percentage of retired workers is sometime a sign for higher median income (probably because wealthy people move to specific areas after retirement).
+
+-The number of people with disabilities has some influence to predict that the area has relativly lower incomes.
+
+
 
 
 
