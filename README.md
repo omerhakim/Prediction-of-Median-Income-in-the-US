@@ -64,10 +64,6 @@ The model with the best result after Hyperparameter Tuning  used the *XGBoost Cl
 
 ## Conclusions
 
-This is one example of feature importance ( ):
-
-<img src = "./images/read2.png">
-
 It is chalenging and not very accurate to predict Income based only on Social Security payments and Geography in a zip code. Nevertheless, some general first impressions can be concluded:
 
 -The State where the zip code is located has big influence, especially when dealing with ealthy or poor states (Connecticut and Puerto rico for example). 
@@ -77,6 +73,15 @@ It is chalenging and not very accurate to predict Income based only on Social Se
 -High percentage of retired workers is sometime a sign for higher median income (probably because wealthy people move to specific areas after retirement).
 
 -The number of people with disabilities has some influence to predict that the area has relativly lower incomes.
+
+
+This is one example of a classifier feature importance( this one is from the logistic regression ):
+
+<img src = "./images/read2.png">
+
+## Future Development:
+
+With additional data (for example tax collection) and with application on all the zip code in the US (this model include about one third of them) more acccura model can be built, based on similar methods that were used in this project.
 
 
 
