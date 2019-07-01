@@ -3,9 +3,9 @@
 
 This model predicts the median income per household (over/under $49,000) in US zip codes based on geography and social security payments.  That analysis would provide insight on the relationship between certain demographic variables and income. 
 
-As a first step in creating this model, in order to get a better understandign of the data, EDA was conducted and a visualization was produced using Matplotlib and Seaborn.
+As a first step in creating this model, in order to get a better understanding of the data, EDA was conducted and a visualization was produced using Matplotlib and Seaborn.
 
-Next, to select the best algorythm for the model, Gridsearch and hyper-parameter tuning were applied to five classifiers: XGBoost, Random Forest, KNN, Logistic Regression, and Decision Tree. Based on comparisons of the accuracy score, XGBoost classifier was chosen for the final model.
+Next, to select the best algorithm for the model, Gridsearch and hyper-parameter tuning were applied to five classifiers: XGBoost, Random Forest, KNN, Logistic Regression, and Decision Tree. Based on comparisons of the accuracy score, XGBoost classifier was chosen for the final model.
 
 Sources of data: US Census Report & Social Security Administration.
 
